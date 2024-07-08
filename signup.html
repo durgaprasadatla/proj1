@@ -3,11 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up page </title>
+    <style>
+        body{
+            background :#05668D;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+           
+            
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #F0F3BD;
+        }
+        form{
+            
+            background: #274690;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid;
+            box-sizing: border-box;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            background: transparent;
+            color: #f4f4f4;
+        }
+        div{
+            margin-bottom: 15px;
+        }
+        
+        input[type="text"],
+        input[type ="password"]{
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-sizing: border-box;
+           
+
+
+        }
+        input[type="button"]{
+            color: #05668D;
+            background-color:#F0F3BD;
+            padding: 10px;
+            border-radius: 5px;
+            width: 40%;
+            cursor:pointer
+            
+        }
+        input[type="button"]:hover{
+            background-color: #02C39A;
+        }
+
+       
+    </style>    
+   
 </head>
+
 <body>
-    <header>
-        <h1>sign up please</h1>
-    </header>
+
+    <h1>Sign-Up</h1>
+
+
+    <form>
+        <div>
+            <label class="fn">First Name:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label >Last Name:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label >Email:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label >Password:</label>
+            <input type="password">
+        </div>
+        <div>
+            <label >Re-Type Password:</label>
+            <input type="password">
+        </div>
+
+        <input type="button" value="Sign-Up">
+        
+        
+    </form>
 </body>
 </html>
